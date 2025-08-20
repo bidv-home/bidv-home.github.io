@@ -1,1 +1,16 @@
 include: [".well-known"]
+
+plugins:
+  - jekyll-include-cache
+
+defaults:
+  - scope:
+      path: ".well-known/apple-app-site-association"
+    values:
+      layout: null
+      sitemap: false
+
+# Ensure proper MIME types for specific files
+webrick:
+  headers:
+    ".well-known/apple-app-site-association": "application/json"
