@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "vn.com.bidv.bidvhome.employee",
+      "sha256_cert_fingerprints": [
+        "CA:A5:4F:CE:05:02:B6:05:91:71:D6:1A:FA:AA:F6:35:76:A5:1C:92:38:89:70:50:04:9F:8C:37:04:3C:21:94"
+      ]
+    }
+  }
+]
